@@ -6,19 +6,19 @@ import java.util.Stack;
 
 public class MiniMaxSum {
 	public static void main(String[] args) {
-//        Scanner in = new Scanner(System.in);
-//        long a = in.nextLong();
-//        long b = in.nextLong();
-//        long c = in.nextLong();
-//        long d = in.nextLong();
-//        long e = in.nextLong();
+        Scanner in = new Scanner(System.in);
+        long a = in.nextLong();
+        long b = in.nextLong();
+        long c = in.nextLong();
+        long d = in.nextLong();
+        long e = in.nextLong();
         
         
-        long a = 1;
-        long b = 2;
-        long c = 3;
-        long d = 4;
-        long e = 5;
+//        long a = 1;
+//        long b = 2;
+//        long c = 3;
+//        long d = 4;
+//        long e = 5;
         ArrayList<Long> list=new ArrayList<>();
         long[] resultlist=new long[5];
         list.add(a);
