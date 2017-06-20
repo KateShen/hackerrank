@@ -35,29 +35,24 @@ public class migratorybirds {
 		 int tmpvalues=end.get(0); 
 		 
 				
-			for (int i = 1; i < end.size(); i++) {
+		for (int i = 1; i < end.size(); i++) {
 				if (tmpvalues<end.get(i)) {
 					tmpkey=i;
 					tmpvalues=end.get(i);
 				}
-			}
-			
-		return tmpkey+1; 
-		
-		
-		
-		
+			}			
+		return tmpkey+1; 		
 	    }
 
 	    public static void main(String[] args) {
-//	        Scanner in = new Scanner(System.in);
-//	        int n = in.nextInt();
-//	        int[] ar = new int[n];
-//	        for(int ar_i = 0; ar_i < n; ar_i++){
-//	            ar[ar_i] = in.nextInt();
-//	        }
-	    	int n=6;
-	    	int[] ar={1,4,4,4,5,3};
+	        Scanner in = new Scanner(System.in);
+	        int n = in.nextInt();
+	        int[] ar = new int[n];
+	        for(int ar_i = 0; ar_i < n; ar_i++){
+	            ar[ar_i] = in.nextInt();
+	        }
+//	    	int n=6;
+//	    	int[] ar={1,4,4,4,5,3};
 	        int result = migratoryBirds(n, ar);
 	        System.out.println(result);
 	    }
