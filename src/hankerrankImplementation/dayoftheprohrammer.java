@@ -30,9 +30,9 @@ public class dayoftheprohrammer {
     }
 
     public static void main(String[] args) {
-//        Scanner in = new Scanner(System.in);
-//       int year = in.nextInt();
-    	int year=1800;
+        Scanner in = new Scanner(System.in);
+       int year = in.nextInt();
+ //   	int year=1800;
         String result = solve(year);
         System.out.println(result);
     }
