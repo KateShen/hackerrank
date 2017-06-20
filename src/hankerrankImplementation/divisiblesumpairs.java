@@ -1,3 +1,4 @@
+package hankerrankImplementation;
 import java.util.Scanner;
 
 public class divisiblesumpairs {
