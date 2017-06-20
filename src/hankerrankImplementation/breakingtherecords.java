@@ -41,13 +41,13 @@ public class breakingtherecords {
     }
 
     public static void main(String[] args) {
-//        Scanner in = new Scanner(System.in);
-//        int n = in.nextInt();
-//        int[] s = new int[n];
-//        for(int s_i=0; s_i < n; s_i++){
-//            s[s_i] = in.nextInt();
-//        }
-    	int[] s={100,45,41,60,17,41,45,43,100,40,89,92,34,6,64,7,37,81,32,50};
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int[] s = new int[n];
+        for(int s_i=0; s_i < n; s_i++){
+            s[s_i] = in.nextInt();
+        }
+    	//int[] s={100,45,41,60,17,41,45,43,100,40,89,92,34,6,64,7,37,81,32,50};
         int[] result = getRecord(s);
         String separator = "", delimiter = " ";
         for (Integer val : result) {
